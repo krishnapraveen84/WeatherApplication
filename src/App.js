@@ -66,9 +66,13 @@ const App = () => {
     
   }, [])
   const onSubmitSearchQuery = () => {
-    setState(status.inprogress)
-    getData(value)
-    setValue("")
+    if (value){
+      setState(status.inprogress)
+      getData(value)
+      setValue("")
+    }
+    
+    
   }
   const toggleClassNames = isDark ? "drakTheme" : "lighTheme";
   const tooggleFontClass = isDark ? "darkFontColor" : null;

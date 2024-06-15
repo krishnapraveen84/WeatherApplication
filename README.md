@@ -48,8 +48,23 @@ To run the application locally:
 > HTMl5
 > CSS
 > Flex Box
-> Media Quires
+> Media Quires (for responsive websites)
 
 # Thrid-party-packages
 > react-loader-spinner
+
+# components
+> Weather component
+
+# Scoe OF Improvements
+- Adding Multiple cities names and when user clcks on specific city it will show respective details
+- Hourly forecast
+- Adding maps 
+
+## Deployed the project using Render
+- link : https://weatherapplication-u95g.onrender.com/
+
+# Useful websites
+- cloudinary (for images)
+- colorhunt (for colors)
 
