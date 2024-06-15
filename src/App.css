@@ -12,9 +12,11 @@ body {
  
 .app-container{
   min-height: 100vh;
+  width: 100%;
 }
 .lighTheme{
   background-image: linear-gradient(to left, #5bb7e2, #1e79e2);
+  
 }
 
 .nav-bar{
@@ -23,6 +25,15 @@ body {
   justify-content: space-between;
   padding: 20px 40px 20px 40px;
 
+}
+@media screen and (max-width: 786px) {
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-name{
+    margin-bottom: 15px;
+  }
 }
 
 .logo-name{
@@ -43,7 +54,7 @@ body {
 .search-bar{
   outline: none;
   border-style: none;
-  height: 45px;
+  height: 30px;
   width: 250px;
   padding: 8px;
   border-radius: 20px;
@@ -96,4 +107,40 @@ body {
 }
 .darkFontColor{
   color:beige;
+}
+.loader-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+/* NotFound */
+.not-found-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding-bottom: 60px;
+} 
+.not-found-img{
+  width: 35%;
+  height: 20%;
+  border-radius: 10px;
+} 
+.error-mesg{
+  font-size: 28px;
+  font-weight: 550;
+  color: rgb(237, 232, 230);
+}
+.retry-btn{
+  outline: none;
+  border-style: none;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(50, 50, 221);
+  border-radius: 10px;
+  font-size: 16px;
 }

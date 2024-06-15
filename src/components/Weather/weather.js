@@ -1,7 +1,5 @@
-// import {useState, useEffect} from  "react";
 import './index.css';
 import { CiLocationOn } from "react-icons/ci";
-
 
 
 const Weather = (props) => {
@@ -33,8 +31,3 @@ const Weather = (props) => {
 };
 
 export default Weather;
-/* <h2 className=''>{location}</h2>
-<p>{humidity}</p>
-<p>{temperature}</p>
-<p>{windSpeed}</p> */
-//<img className='cloud-img' src='' />

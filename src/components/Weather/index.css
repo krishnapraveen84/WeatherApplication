@@ -41,6 +41,18 @@
     align-items: center;
     margin-top: 25px;
 }   
+@media screen and (max-width: 786px) {
+    .other-details-container{
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .img-icons{
+        width: 30%;
+    }
+    .humidity-div{
+        margin-bottom: 40px;
+    }
+}
 .img-icons{
     width: 20%;
     margin-right: 15px;
