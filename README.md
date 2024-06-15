@@ -1,6 +1,6 @@
 # Weather Application
 
-This is a weather application built using React. It fetches weather data from the OpenWeather API and displays current weather information based on user input.
+This is a weather application built using React. It fetches weather data from the OpenWeather API and displays current weather information based on user input (city name).
 
 ## Features
 - Display current location, temperature, date, and time
@@ -17,7 +17,7 @@ To run the application locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/weather-app.git
+    git clone https://github.com/krishnapraveen84/WeatherApplication
     cd weather-app
     ```
 
@@ -35,9 +35,21 @@ To run the application locally:
 
 ## Known Issues
 - Ensure valid city names are entered to fetch the correct weather data.
+- Network failures
 
-## Screenshots
-(Upload screenshots to your Google Drive folder and provide the link here)
+## Handled Issues
+- Handled the Invalid city name input by rendering the NotFound image and text to user
+- Handled the Network failures by showing user the message and Retry button to again fatech the data
 
-## Live Demo
-(If deployed, provide the link to the live demo)
+
+## Tech Stack Used
+> React JS
+> JavaScript
+> HTMl5
+> CSS
+> Flex Box
+> Media Quires
+
+# Thrid-party-packages
+> react-loader-spinner
+
