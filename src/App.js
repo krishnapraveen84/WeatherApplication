@@ -48,6 +48,8 @@ const App = () => {
   }, [])
   const toggleClassNames = isDark ? "drakTheme" : "lighTheme";
   const tooggleFontClass = isDark ? "darkFontColor" : null;
+  const date = new Date()
+  console.log(date)
   return(
     <div className={`app-container ${toggleClassNames}`}>
       <nav className='nav-bar'>
@@ -57,6 +59,7 @@ const App = () => {
           <button className='search-btn' onClick={() => getData(inputRef.current.value)}><IoIosSearch className='search-icon' /></button>
         </div>
         <div className='theme-container'>
+          <p className='date'>{date.getDate()} {date.toLocaleString("en-US", { month: "long" })} {date.getFullYear()} {date.getHours()}:{date.getMinutes()}</p>
           <button className='toggle-button' onClick={onThemeToggle}>{isDark ? <CiLight className={`icon ${tooggleFontClass}`} /> : <GoMoon className='icon' /> }</button>
         </div>
       </nav>

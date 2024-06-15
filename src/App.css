@@ -72,14 +72,20 @@ body {
   font-size: 28px;
   color: rgb(69, 113, 114);
 }
-/* .theme-container{
-
-
-}  */
+.theme-container{
+  display: flex;
+  align-items: center;
+} 
 .toggle-button{
   outline: none;
   border-style: none;
   background-color: transparent;
+  margin-left: 10px;
+}
+.date{
+  font-size: 22px;
+  font-weight: 540;
+  color: rgb(251, 251, 4);
 }
 .icon{
   font-size: 25px;

@@ -8,8 +8,7 @@ const Weather = (props) => {
     const {data} = props;
     const {humidity, temperature, windSpeed, fellsLike, location, imageUrl} = data;
     return(
-        <div className="weather-container"> 
-            
+        <div className="weather-container">
             <div className='temp-loc-container'>
                 <img className='weather-img' src={imageUrl} alt='weather iMage' />
                 <h2 className='temperature'>{temperature}<sup>o</sup>c</h2>
