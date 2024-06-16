@@ -56,7 +56,7 @@ To run the application locally:
 # components
 > Weather component
 
-# Scoe OF Improvements
+# Scope OF Improvements
 - Adding Multiple cities names and when user clcks on specific city it will show respective details
 - Hourly forecast
 - Adding maps 
